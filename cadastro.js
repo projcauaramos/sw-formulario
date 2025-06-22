@@ -65,5 +65,5 @@ document.getElementById("cadastroForm").addEventListener("submit", function(even
 
     // Se chegar aqui, todas as validações passaram e o formulário será enviado normalmente
     alert("Cadastro realizado com sucesso!");
-    event.preventDefault(); // Remove esta linha quando integrar com backend
+    event.preventDefault();
 });
